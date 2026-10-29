@@ -1,0 +1,376 @@
+{
+  "paintings": [
+    {
+      "id": "tranh-01",
+      "title": "Tranh 01",
+      "author": "Chưa cập nhật tác giả",
+      "image": "assets/paintings/tranh-01.svg",
+      "thumbnail": "assets/paintings/tranh-01.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "tay",
+        "slot": 1
+      }
+    },
+    {
+      "id": "tranh-02",
+      "title": "Tranh 02",
+      "author": "Chưa cập nhật tác giả",
+      "image": "assets/paintings/tranh-02.svg",
+      "thumbnail": "assets/paintings/tranh-02.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "tay",
+        "slot": 2
+      }
+    },
+    {
+      "id": "tranh-03",
+      "title": "Tranh 03",
+      "author": "Chưa cập nhật tác giả",
+      "image": "assets/paintings/tranh-03.svg",
+      "thumbnail": "assets/paintings/tranh-03.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "tay",
+        "slot": 3
+      }
+    },
+    {
+      "id": "tranh-04",
+      "title": "Tranh 04",
+      "author": "Chưa cập nhật tác giả",
+      "image": "assets/paintings/tranh-04.svg",
+      "thumbnail": "assets/paintings/tranh-04.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "tay",
+        "slot": 4
+      }
+    },
+    {
+      "id": "tranh-05",
+      "title": "Tranh 05",
+      "author": "Chưa cập nhật tác giả",
+      "image": "assets/paintings/tranh-05.svg",
+      "thumbnail": "assets/paintings/tranh-05.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "tay",
+        "slot": 5
+      }
+    },
+    {
+      "id": "tranh-06",
+      "title": "Tranh 06",
+      "author": "Chưa cập nhật tác giả",
+      "image": "assets/paintings/tranh-06.svg",
+      "thumbnail": "assets/paintings/tranh-06.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "tay",
+        "slot": 6
+      }
+    },
+    {
+      "id": "tranh-07",
+      "title": "Tranh 07",
+      "author": "Chưa cập nhật tác giả",
+      "image": "assets/paintings/tranh-07.svg",
+      "thumbnail": "assets/paintings/tranh-07.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "dong",
+        "slot": 1
+      }
+    },
+    {
+      "id": "tranh-08",
+      "title": "Tranh 08",
+      "author": "Chưa cập nhật tác giả",
+      "image": "assets/paintings/tranh-08.svg",
+      "thumbnail": "assets/paintings/tranh-08.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "dong",
+        "slot": 2
+      }
+    },
+    {
+      "id": "tranh-09",
+      "title": "Tranh 09",
+      "author": "Chưa cập nhật tác giả",
+      "image": "assets/paintings/tranh-09.svg",
+      "thumbnail": "assets/paintings/tranh-09.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "dong",
+        "slot": 3
+      }
+    },
+    {
+      "id": "tranh-10",
+      "title": "Tranh 10",
+      "author": "Chưa cập nhật tác giả",
+      "image": "assets/paintings/tranh-10.svg",
+      "thumbnail": "assets/paintings/tranh-10.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "dong",
+        "slot": 4
+      }
+    },
+    {
+      "id": "tranh-11",
+      "title": "Tranh 11",
+      "author": "Chưa cập nhật tác giả",
+      "image": "assets/paintings/tranh-11.svg",
+      "thumbnail": "assets/paintings/tranh-11.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "dong",
+        "slot": 5
+      }
+    },
+    {
+      "id": "tranh-12",
+      "title": "Tranh 12",
+      "author": "Chưa cập nhật tác giả",
+      "image": "assets/paintings/tranh-12.svg",
+      "thumbnail": "assets/paintings/tranh-12.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "dong",
+        "slot": 6
+      }
+    },
+    {
+      "id": "tranh-13",
+      "title": "Tranh 13",
+      "author": "Chưa cập nhật tác giả",
+      "image": "assets/paintings/tranh-13.svg",
+      "thumbnail": "assets/paintings/tranh-13.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "bac",
+        "slot": 1
+      }
+    },
+    {
+      "id": "tranh-14",
+      "title": "Tranh 14",
+      "author": "Chưa cập nhật tác giả",
+      "image": "assets/paintings/tranh-14.svg",
+      "thumbnail": "assets/paintings/tranh-14.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "bac",
+        "slot": 2
+      }
+    },
+    {
+      "id": "tranh-15",
+      "title": "Tranh 15",
+      "author": "Chưa cập nhật tác giả",
+      "image": "assets/paintings/tranh-15.svg",
+      "thumbnail": "assets/paintings/tranh-15.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "bac",
+        "slot": 3
+      }
+    },
+    {
+      "id": "tranh-16",
+      "title": "Tranh 16",
+      "author": "Chưa cập nhật tác giả",
+      "image": "assets/paintings/tranh-16.svg",
+      "thumbnail": "assets/paintings/tranh-16.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "bac",
+        "slot": 4
+      }
+    },
+    {
+      "id": "tranh-17",
+      "title": "Tranh 17",
+      "author": "Chưa cập nhật tác giả",
+      "image": "assets/paintings/tranh-17.svg",
+      "thumbnail": "assets/paintings/tranh-17.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "nam",
+        "slot": 1
+      }
+    },
+    {
+      "id": "tranh-18",
+      "title": "Tranh 18",
+      "author": "Chưa cập nhật tác giả",
+      "image": "assets/paintings/tranh-18.svg",
+      "thumbnail": "assets/paintings/tranh-18.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "nam",
+        "slot": 2
+      }
+    },
+    {
+      "id": "tranh-19",
+      "title": "Tranh 19",
+      "author": "Chưa cập nhật tác giả",
+      "image": "assets/paintings/tranh-19.svg",
+      "thumbnail": "assets/paintings/tranh-19.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "nam",
+        "slot": 3
+      }
+    },
+    {
+      "id": "tranh-20",
+      "title": "Tranh 20",
+      "author": "Chưa cập nhật tác giả",
+      "image": "assets/paintings/tranh-20.svg",
+      "thumbnail": "assets/paintings/tranh-20.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "nam",
+        "slot": 4
+      }
+    }
+  ],
+  "cards": [
+    {
+      "id": "thiep-01",
+      "title": "Thiệp 01",
+      "author": "Chưa cập nhật tác giả",
+      "frontImage": "assets/cards/thiep-01-ngoai.svg",
+      "insideImage": "assets/cards/thiep-01-trong.svg",
+      "thumbnail": "assets/cards/thiep-01-ngoai.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "tay",
+        "slot": 1
+      }
+    },
+    {
+      "id": "thiep-02",
+      "title": "Thiệp 02",
+      "author": "Chưa cập nhật tác giả",
+      "frontImage": "assets/cards/thiep-02-ngoai.svg",
+      "insideImage": "assets/cards/thiep-02-trong.svg",
+      "thumbnail": "assets/cards/thiep-02-ngoai.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "tay",
+        "slot": 2
+      }
+    },
+    {
+      "id": "thiep-03",
+      "title": "Thiệp 03",
+      "author": "Chưa cập nhật tác giả",
+      "frontImage": "assets/cards/thiep-03-ngoai.svg",
+      "insideImage": "assets/cards/thiep-03-trong.svg",
+      "thumbnail": "assets/cards/thiep-03-ngoai.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "tay",
+        "slot": 3
+      }
+    },
+    {
+      "id": "thiep-04",
+      "title": "Thiệp 04",
+      "author": "Chưa cập nhật tác giả",
+      "frontImage": "assets/cards/thiep-04-ngoai.svg",
+      "insideImage": "assets/cards/thiep-04-trong.svg",
+      "thumbnail": "assets/cards/thiep-04-ngoai.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "tay",
+        "slot": 4
+      }
+    },
+    {
+      "id": "thiep-05",
+      "title": "Thiệp 05",
+      "author": "Chưa cập nhật tác giả",
+      "frontImage": "assets/cards/thiep-05-ngoai.svg",
+      "insideImage": "assets/cards/thiep-05-trong.svg",
+      "thumbnail": "assets/cards/thiep-05-ngoai.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "dong",
+        "slot": 1
+      }
+    },
+    {
+      "id": "thiep-06",
+      "title": "Thiệp 06",
+      "author": "Chưa cập nhật tác giả",
+      "frontImage": "assets/cards/thiep-06-ngoai.svg",
+      "insideImage": "assets/cards/thiep-06-trong.svg",
+      "thumbnail": "assets/cards/thiep-06-ngoai.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "dong",
+        "slot": 2
+      }
+    },
+    {
+      "id": "thiep-07",
+      "title": "Thiệp 07",
+      "author": "Chưa cập nhật tác giả",
+      "frontImage": "assets/cards/thiep-07-ngoai.svg",
+      "insideImage": "assets/cards/thiep-07-trong.svg",
+      "thumbnail": "assets/cards/thiep-07-ngoai.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "dong",
+        "slot": 3
+      }
+    },
+    {
+      "id": "thiep-08",
+      "title": "Thiệp 08",
+      "author": "Chưa cập nhật tác giả",
+      "frontImage": "assets/cards/thiep-08-ngoai.svg",
+      "insideImage": "assets/cards/thiep-08-trong.svg",
+      "thumbnail": "assets/cards/thiep-08-ngoai.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "dong",
+        "slot": 4
+      }
+    },
+    {
+      "id": "thiep-09",
+      "title": "Thiệp 09",
+      "author": "Chưa cập nhật tác giả",
+      "frontImage": "assets/cards/thiep-09-ngoai.svg",
+      "insideImage": "assets/cards/thiep-09-trong.svg",
+      "thumbnail": "assets/cards/thiep-09-ngoai.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "bac",
+        "slot": 1
+      }
+    },
+    {
+      "id": "thiep-10",
+      "title": "Thiệp 10",
+      "author": "Chưa cập nhật tác giả",
+      "frontImage": "assets/cards/thiep-10-ngoai.svg",
+      "insideImage": "assets/cards/thiep-10-trong.svg",
+      "thumbnail": "assets/cards/thiep-10-ngoai.svg",
+      "placeholder": true,
+      "position": {
+        "wall": "bac",
+        "slot": 2
+      }
+    }
+  ]
+}

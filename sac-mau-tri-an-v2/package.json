@@ -1,0 +1,1 @@
+{"name":"sac-mau-tri-an-v2","version":"2.0.0","private":true,"type":"module","scripts":{"dev":"python3 -m http.server 4173 --bind 0.0.0.0 --directory dist","check":"node tools/validate.mjs"}}

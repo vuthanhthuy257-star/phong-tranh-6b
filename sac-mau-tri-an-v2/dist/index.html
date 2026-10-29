@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f4f1e9">
+  <meta name="description" content="Sắc màu tri ân – Không gian triển lãm nghệ thuật 3D của lớp 6B, Trường THCS Hòa Chung. Chào mừng ngày Nhà giáo Việt Nam 20/11/2026.">
+  <title>SẮC MÀU TRI ÂN · Lớp 6B</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#start">Bỏ qua đến nội dung</a>
+  <main id="app" class="at-home">
+    <div id="scene" aria-label="Không gian triển lãm 3D. Kéo để xoay nhìn; chạm tác phẩm để xem." role="region"><canvas id="museum" tabindex="0" aria-label="Phòng triển lãm 3D. Dùng phím mũi tên để xoay, nút điểm quan sát để di chuyển."></canvas></div>
+    <header class="topbar">
+      <button class="brand" id="brandHome" aria-label="Sắc màu tri ân – Trang chủ"><span class="brand-symbol" aria-hidden="true">s<span>m</span></span><span>SẮC MÀU TRI ÂN<small>LỚP 6B · THCS HÒA CHUNG</small></span></button>
+      <nav class="room-tabs" aria-label="Chuyển khu triển lãm">
+        <button data-room="paintings" aria-pressed="true"><span>01</span> PHÒNG TRANH</button>
+        <button data-room="cards" aria-pressed="false"><span>02</span> THIỆP CHÚC MỪNG</button>
+      </nav>
+      <div class="header-actions"><button id="home" class="text-button in-room">TRANG CHỦ</button><button id="help" class="text-button"><span class="circle-icon">?</span><span>HƯỚNG DẪN</span></button></div>
+    </header>
+    <section id="welcome" aria-labelledby="welcome-title">
+      <div class="welcome-content">
+        <p class="eyebrow"><span></span> CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM</p>
+        <h1 id="welcome-title">SẮC MÀU<br><em>TRI ÂN</em><span class="title-dot">.</span></h1>
+        <p class="subtitle">Không gian triển lãm nghệ thuật</p>
+        <p class="school">Lớp 6B – Trường THCS Hòa Chung</p>
+        <div class="fine-rule"></div>
+        <p class="welcome-note">Những nét vẽ, những lời chúc.<br>Một không gian nhỏ, gửi ngàn lời tri ân.</p>
+        <button id="start" class="primary">BẮT ĐẦU THAM QUAN <span aria-hidden="true">↗</span></button>
+        <div class="collection-counts"><div><b>20</b><span>VỊ TRÍ TRANH</span></div><div><b>10</b><span>VỊ TRÍ THIỆP</span></div><div><b>02</b><span>KHÔNG GIAN</span></div></div>
+      </div>
+      <div class="preview-caption"><span class="live-dot"></span> KHÔNG GIAN 3D TƯƠNG TÁC <span>↗</span></div>
+      <footer class="welcome-footer"><span>CHUYẾN ĐÒ ƯỚC MƠ <i> / </i> ẤN PHẨM TRI ÂN</span><span>20 . 11 . 2026</span></footer>
+    </section>
+    <div id="roomInfo" class="in-room"><span class="eyebrow" id="roomNumber">KHÔNG GIAN 01 / 02</span><h2 id="roomTitle">Phòng tranh</h2><p id="roomDesc">20 vị trí trưng bày · Chạm vào khung để xem</p></div>
+    <div class="demo-label"><span></span> BẢN XEM THỬ · ẢNH GIỮ CHỖ</div>
+    <div id="loading" role="status">Đang chuẩn bị không gian…</div>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <div id="roomControls" class="in-room">
+      <button id="catalog" class="catalog-button"><span aria-hidden="true">▦</span> DANH MỤC <small>30</small></button>
+      <div class="station-control"><button id="prevStation" aria-label="Điểm quan sát trước">←</button><div><small>ĐIỂM QUAN SÁT</small><span id="stationLabel">01 / 08</span></div><button id="nextStation" aria-label="Điểm quan sát tiếp theo">→</button></div>
+      <div class="view-actions"><button id="resetView" aria-label="Đặt lại góc nhìn" title="Đặt lại góc nhìn">↺</button><button id="fullscreen" aria-label="Toàn màn hình" title="Toàn màn hình">⛶</button></div>
+    </div>
+    <p id="gestureHint" class="in-room">Kéo để nhìn quanh <span>·</span> Chạm tranh để xem <span>·</span> Chạm vòng tròn để di chuyển</p>
+    <div id="fade" aria-hidden="true"></div>
+  </main>
+  <dialog id="helpDialog" class="paper-dialog" aria-labelledby="helpTitle">
+    <button class="dialog-x" data-close aria-label="Đóng hướng dẫn">×</button><p class="eyebrow">MỜI BẠN GHÉ THĂM</p><h2 id="helpTitle">Một vòng triển lãm</h2>
+    <div class="help-steps"><div><b>01</b><p><strong>Nhìn quanh không gian</strong>Giữ chuột trái và kéo, hoặc vuốt một ngón tay. Có thể dùng phím mũi tên.</p></div><div><b>02</b><p><strong>Đến một góc nhìn mới</strong>Chạm vòng tròn trên sàn, dùng nút mũi tên bên dưới hoặc chuyển nhanh giữa hai khu.</p></div><div><b>03</b><p><strong>Dừng lại bên tác phẩm</strong>Chạm khung để xem ảnh gốc. Dùng nút +/−, cuộn chuột hoặc chụm/mở hai ngón tay để phóng to; kéo để xem chi tiết.</p></div><div><b>04</b><p><strong>Mở những lời chúc</strong>Chọn thiệp, rồi nhấn “Xem mặt trong”. Đóng cửa sổ để trở về đúng góc nhìn đang đứng.</p></div></div>
+    <p class="help-note">Đây là bản xem thử với 20 tranh và 10 thiệp giữ chỗ, chưa phải tác phẩm thật của học sinh. Danh mục cho phép xem tất cả tác phẩm và sử dụng khi thiết bị không hỗ trợ WebGL.</p><button data-close class="primary">ĐÃ HIỂU <span>→</span></button>
+  </dialog>
+  <dialog id="catalogDialog" class="catalog-dialog" aria-labelledby="catalogTitle"><header><div><p class="eyebrow">BỘ SƯU TẬP LỚP 6B</p><h2 id="catalogTitle">Danh mục tác phẩm</h2></div><button class="dialog-x" data-close aria-label="Đóng danh mục">×</button></header><p id="fallbackNote" hidden>Thiết bị không hỗ trợ WebGL hoặc không gian 3D không tải được. Bạn có thể xem đầy đủ tranh và hai mặt thiệp tại đây.</p><div class="catalog-tabs"><button data-list="paintings" aria-pressed="true">PHÒNG TRANH <small>20</small></button><button data-list="cards" aria-pressed="false">THIỆP CHÚC MỪNG <small>10</small></button></div><div id="catalogList" class="catalog-grid"></div></dialog>
+  <dialog id="artDialog" aria-labelledby="artTitle"><header class="art-header"><div><p id="artType" class="eyebrow">PHÒNG TRANH</p><h2 id="artTitle"></h2><p id="artAuthor"></p></div><button class="close-art" id="closeArt">ĐÓNG <span>×</span></button></header><div id="imageStage"><img id="detailImage" alt="" draggable="false"><p id="imageStatus" role="status"></p></div><footer class="art-footer"><span id="artBadge">ẢNH GIỮ CHỖ</span><button id="flipCard" class="secondary" hidden>XEM MẶT TRONG <span>↻</span></button><div class="zoom-controls"><button id="zoomOut" aria-label="Thu nhỏ">−</button><button id="zoomReset" aria-label="Đặt lại độ phóng to">100%</button><button id="zoomIn" aria-label="Phóng to">+</button></div></footer></dialog>
+  <script type="module" src="app.js"></script>
+</body></html>
